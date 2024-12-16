@@ -1,0 +1,16 @@
+package com.newjava;
+import java.io.*;
+import java.util.*;
+public class world {
+
+	public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    int f = sc.nextInt();
+    int t = sc.nextInt();
+    int friendsInEachTeam = f/t;
+    int leftout = f%t;
+    System.out.println("The number of friends in each team is" + friendsInEachTeam + "and left out is" + leftout);
+	}
+
+}
